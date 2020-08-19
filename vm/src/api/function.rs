@@ -444,7 +444,6 @@ impl<T, $($args,)* R> Function<T, fn($($args),*) -> R>
     )
 }
 
-make_vm_function!();
 make_vm_function!(A);
 make_vm_function!(A, B);
 make_vm_function!(A, B, C);
